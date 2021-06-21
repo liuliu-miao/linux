@@ -29,7 +29,6 @@ Lock screen background #锁屏壁纸
 # tmux 配置
 ```
 详情见 .tmux.conf文件
-
 ```
 
 # QQ Wehcat
@@ -45,7 +44,8 @@ sudo apt-get install -y com.qq.weixin.deepin
 ``` 
 #下载字体到 /usr/share/fonts/myfonts
 mkdir -p /usr/share/fonts/myfonts
-sudo fc-cache -fsv 
+Hack Menlo MesloLGS
+sudo fc-cache -fsv
 ```
 
 # docker install
