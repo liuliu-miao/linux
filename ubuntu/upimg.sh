@@ -2,7 +2,7 @@
 cdt=`date +"%Y%m%d_%H%M%S"`
 mkdir -p /home/lius/Pictures/wallpaper/history/
 cp /home/lius/Pictures/wallpaper/current.jpg /home/lius/Pictures/wallpaper/history/${cdt}.jpg
-curl -L https://source.unsplash.com/2560x1440/?nature,water  -o "/home/lius/Pictures/wallpaper/tmp.jpg"
+curl -L https://source.unsplash.com/2560x1440/?nature,water,architecture,interiors,travel,originalbydesign  -o "/home/lius/Pictures/wallpaper/tmp.jpg"
 
 cimgsum=`sha256sum /home/lius/Pictures/wallpaper/tmp.jpg |awk '{print $1}'`
 imglist=`ls /home/lius/Pictures/wallpaper/history/`
